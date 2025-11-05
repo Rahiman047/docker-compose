@@ -6,6 +6,7 @@ services:
     container_name: dummy_redis_container
   
   web:
-    image: docker hello-world
+    image: busybox
     container_name: dummy_hello_word
+    command: ["echo", "busybox"]
   
